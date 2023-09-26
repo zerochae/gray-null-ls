@@ -109,7 +109,7 @@ NullLsProperties.cwd = {
 NullLsProperties.filter = {
   eslint = function(diagnostic)
     local ignored_codes = {
-      "prettier/prettier",
+      -- "prettier/prettier",
       "@typescript-eslint/no-unused-vars",
       "react/jsx-no-undef",
       "vue/no-child-content",

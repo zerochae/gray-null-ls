@@ -14,7 +14,7 @@ local env = Properties.env
 NullLsConfigs.prettier_config = {
   filetypes = file_type.prettier,
   condition = condition.prettier,
-  cwd = cwd.prettier,
+  -- cwd = cwd.prettier,
   extra_args = extra_args.prettier,
   dynamic_command = dynamic_command.prettier,
 }
@@ -23,7 +23,7 @@ NullLsConfigs.eslint_config = {
   diagnostics_format = format.eslint,
   condition = condition.eslint,
   filter = filter.eslint,
-  cwd = cwd.eslint,
+  -- cwd = cwd.eslint,
   dynamic_command = dynamic_command.eslint,
 }
 
